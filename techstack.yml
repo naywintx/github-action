@@ -1,0 +1,54 @@
+repo_name: naywintx/github-action
+report_id: 74ee6fc17671f57cf4cfec0dcad8a37d
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-21T02:35:20+00:00'
+requested_by: Sija
+provider: github
+branch: master
+detected_tools_count: 4
+tools:
+- name: Crystal
+  description: Fast as C, slick as Ruby
+  website_url: http://crystal-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3381/_iXHOD-1.png
+  detection_source_url: https://github.com/naywintx/github-action
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/naywintx/github-action
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/naywintx/github-action
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/naywintx/github-action/blob/master/.github/workflows/crystal.yml
+  detection_source: ".github/workflows/crystal.yml"
+  last_updated_by: Sijawusz Pur Rahnama
+  last_updated_on: 2023-12-25 22:16:23.000000000 Z
